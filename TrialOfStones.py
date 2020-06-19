@@ -21,8 +21,6 @@ secrets_input = browser.find_element_by_css_selector('input[id="r2Input"]')
 secrets_answer_butn = browser.find_element_by_css_selector('button#r2Butn')
 
 # Two Merchants
-# Simple approach
-
 richest_merchant_name = browser.find_element_by_xpath(
     "//p[text()='3000'] /.. /span").text
 merchant_input = browser.find_element_by_id('r3Input')
